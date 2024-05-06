@@ -355,15 +355,15 @@
       <a name="label" val="rd"/>
       <a name="width" val="5"/>
     </comp>
-    <comp lib="0" loc="(1610,940)" name="Tunnel">
+    <comp lib="0" loc="(1610,930)" name="Tunnel">
       <a name="label" val="sllimm"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(1610,980)" name="Tunnel">
+    <comp lib="0" loc="(1610,990)" name="Tunnel">
       <a name="label" val="rs2"/>
       <a name="width" val="5"/>
     </comp>
-    <comp lib="0" loc="(1620,910)" name="Tunnel">
+    <comp lib="0" loc="(1620,900)" name="Tunnel">
       <a name="label" val="rd"/>
       <a name="width" val="5"/>
     </comp>
@@ -865,21 +865,19 @@
     <wire from="(1550,2000)" to="(1550,2570)"/>
     <wire from="(1550,2570)" to="(1660,2570)"/>
     <wire from="(1550,910)" to="(1600,910)"/>
-    <wire from="(1550,930)" to="(1590,930)"/>
-    <wire from="(1550,990)" to="(1590,990)"/>
+    <wire from="(1550,930)" to="(1610,930)"/>
+    <wire from="(1550,990)" to="(1610,990)"/>
     <wire from="(1570,1010)" to="(1570,1050)"/>
     <wire from="(1570,1050)" to="(1610,1050)"/>
-    <wire from="(1590,930)" to="(1590,940)"/>
-    <wire from="(1590,940)" to="(1610,940)"/>
-    <wire from="(1590,980)" to="(1590,990)"/>
-    <wire from="(1590,980)" to="(1610,980)"/>
     <wire from="(160,530)" to="(200,530)"/>
     <wire from="(160,630)" to="(200,630)"/>
     <wire from="(1600,2370)" to="(1600,2560)"/>
     <wire from="(1600,2560)" to="(1660,2560)"/>
-    <wire from="(1600,870)" to="(1600,910)"/>
+    <wire from="(1600,870)" to="(1600,900)"/>
     <wire from="(1600,870)" to="(1660,870)"/>
-    <wire from="(1600,910)" to="(1620,910)"/>
+    <wire from="(1600,900)" to="(1600,910)"/>
+    <wire from="(1600,900)" to="(1620,900)"/>
+    <wire from="(1600,910)" to="(1610,910)"/>
     <wire from="(1610,1920)" to="(1610,1940)"/>
     <wire from="(1610,1940)" to="(1660,1940)"/>
     <wire from="(1620,1810)" to="(1620,1850)"/>
@@ -925,8 +923,8 @@
     <wire from="(2020,1980)" to="(2020,2010)"/>
     <wire from="(2030,1830)" to="(2370,1830)"/>
     <wire from="(2040,1960)" to="(2060,1960)"/>
-    <wire from="(2060,1960)" to="(2060,2010)"/>
-    <wire from="(2060,2010)" to="(2390,2010)"/>
+    <wire from="(2060,1960)" to="(2060,2000)"/>
+    <wire from="(2060,2000)" to="(2410,2000)"/>
     <wire from="(210,780)" to="(270,780)"/>
     <wire from="(210,790)" to="(270,790)"/>
     <wire from="(210,800)" to="(230,800)"/>
@@ -942,8 +940,6 @@
     <wire from="(2340,2200)" to="(2430,2200)"/>
     <wire from="(2370,1830)" to="(2370,1840)"/>
     <wire from="(2370,1840)" to="(2410,1840)"/>
-    <wire from="(2390,2000)" to="(2390,2010)"/>
-    <wire from="(2390,2000)" to="(2410,2000)"/>
     <wire from="(240,1720)" to="(240,1810)"/>
     <wire from="(240,1720)" to="(670,1720)"/>
     <wire from="(240,1810)" to="(240,1890)"/>
@@ -979,12 +975,10 @@
     <wire from="(280,220)" to="(310,220)"/>
     <wire from="(280,250)" to="(310,250)"/>
     <wire from="(290,800)" to="(300,800)"/>
-    <wire from="(300,1100)" to="(300,1520)"/>
-    <wire from="(300,1100)" to="(480,1100)"/>
     <wire from="(300,1520)" to="(300,1570)"/>
     <wire from="(300,1520)" to="(480,1520)"/>
     <wire from="(300,1570)" to="(2340,1570)"/>
-    <wire from="(300,800)" to="(300,1100)"/>
+    <wire from="(300,800)" to="(300,1520)"/>
     <wire from="(340,1640)" to="(400,1640)"/>
     <wire from="(400,1620)" to="(400,1630)"/>
     <wire from="(400,1660)" to="(400,1740)"/>
@@ -1001,7 +995,6 @@
     <wire from="(440,1290)" to="(460,1290)"/>
     <wire from="(440,590)" to="(440,650)"/>
     <wire from="(440,590)" to="(450,590)"/>
-    <wire from="(480,1070)" to="(480,1100)"/>
     <wire from="(480,1450)" to="(480,1520)"/>
     <wire from="(480,1660)" to="(480,1910)"/>
     <wire from="(480,1910)" to="(810,1910)"/>
@@ -1768,7 +1761,7 @@
     <comp lib="0" loc="(750,240)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="ts2"/>
+      <a name="label" val="rs2"/>
       <a name="output" val="true"/>
       <a name="width" val="5"/>
     </comp>
@@ -1951,7 +1944,7 @@
     <comp lib="0" loc="(750,240)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="ts2"/>
+      <a name="label" val="rs2"/>
       <a name="output" val="true"/>
       <a name="width" val="5"/>
     </comp>
