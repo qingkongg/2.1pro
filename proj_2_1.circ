@@ -383,40 +383,9 @@
       <a name="label" val="imm"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(1820,1760)" name="Splitter">
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit10" val="none"/>
-      <a name="bit11" val="none"/>
-      <a name="bit12" val="none"/>
-      <a name="bit13" val="none"/>
-      <a name="bit14" val="none"/>
-      <a name="bit15" val="none"/>
-      <a name="bit16" val="none"/>
-      <a name="bit17" val="none"/>
-      <a name="bit18" val="none"/>
-      <a name="bit19" val="none"/>
-      <a name="bit2" val="0"/>
-      <a name="bit20" val="none"/>
-      <a name="bit21" val="none"/>
-      <a name="bit22" val="none"/>
-      <a name="bit23" val="none"/>
-      <a name="bit24" val="none"/>
-      <a name="bit25" val="none"/>
-      <a name="bit26" val="none"/>
-      <a name="bit27" val="1"/>
-      <a name="bit28" val="1"/>
-      <a name="bit29" val="1"/>
-      <a name="bit3" val="0"/>
-      <a name="bit30" val="1"/>
-      <a name="bit31" val="1"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="none"/>
-      <a name="bit6" val="none"/>
-      <a name="bit7" val="none"/>
-      <a name="bit8" val="none"/>
-      <a name="bit9" val="none"/>
-      <a name="incoming" val="32"/>
+    <comp lib="0" loc="(1880,1760)" name="Bit Extender">
+      <a name="in_width" val="32"/>
+      <a name="out_width" val="5"/>
     </comp>
     <comp lib="0" loc="(190,860)" name="Splitter">
       <a name="appear" val="center"/>
@@ -927,22 +896,22 @@
     <wire from="(1680,2800)" to="(1680,2820)"/>
     <wire from="(1700,1990)" to="(1820,1990)"/>
     <wire from="(1700,2640)" to="(1850,2640)"/>
-    <wire from="(1760,1760)" to="(1820,1760)"/>
+    <wire from="(1760,1760)" to="(1840,1760)"/>
     <wire from="(1790,2070)" to="(1930,2070)"/>
     <wire from="(1820,1820)" to="(1820,1990)"/>
     <wire from="(1820,1820)" to="(1990,1820)"/>
     <wire from="(1820,1990)" to="(1880,1990)"/>
-    <wire from="(1840,1750)" to="(1950,1750)"/>
     <wire from="(1850,2020)" to="(1850,2570)"/>
     <wire from="(1850,2020)" to="(1930,2020)"/>
     <wire from="(1850,2570)" to="(1850,2640)"/>
     <wire from="(1850,2570)" to="(2060,2570)"/>
+    <wire from="(1880,1760)" to="(1950,1760)"/>
     <wire from="(1880,1990)" to="(1880,2050)"/>
     <wire from="(1880,1990)" to="(1900,1990)"/>
     <wire from="(1880,2050)" to="(1930,2050)"/>
     <wire from="(1900,1990)" to="(1900,2000)"/>
     <wire from="(1900,2000)" to="(1930,2000)"/>
-    <wire from="(1950,1750)" to="(1950,1840)"/>
+    <wire from="(1950,1760)" to="(1950,1840)"/>
     <wire from="(1950,1840)" to="(1990,1840)"/>
     <wire from="(1970,2010)" to="(1980,2010)"/>
     <wire from="(1970,2060)" to="(2400,2060)"/>
