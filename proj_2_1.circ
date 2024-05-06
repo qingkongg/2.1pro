@@ -379,7 +379,11 @@
     <comp lib="0" loc="(220,690)" name="Constant">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="0" loc="(2280,1990)" name="Tunnel">
+    <comp lib="0" loc="(2200,1990)" name="Tunnel">
+      <a name="label" val="wb_data"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(2240,1870)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="alu_result"/>
       <a name="width" val="32"/>
@@ -875,8 +879,13 @@
     <wire from="(210,930)" to="(270,930)"/>
     <wire from="(2110,2150)" to="(2110,2200)"/>
     <wire from="(2110,2200)" to="(2340,2200)"/>
-    <wire from="(2130,1990)" to="(2190,1990)"/>
+    <wire from="(2130,1990)" to="(2180,1990)"/>
+    <wire from="(2180,1920)" to="(2180,1990)"/>
+    <wire from="(2180,1920)" to="(2290,1920)"/>
+    <wire from="(2180,1990)" to="(2200,1990)"/>
     <wire from="(220,1720)" to="(240,1720)"/>
+    <wire from="(2240,1870)" to="(2290,1870)"/>
+    <wire from="(2290,1870)" to="(2290,1920)"/>
     <wire from="(230,760)" to="(230,800)"/>
     <wire from="(230,760)" to="(300,760)"/>
     <wire from="(2340,1570)" to="(2340,2200)"/>
