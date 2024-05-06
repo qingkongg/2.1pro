@@ -517,10 +517,6 @@
       <a name="label" val="alu_result"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(600,980)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="func4"/>
-    </comp>
     <comp lib="0" loc="(630,1360)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="func4"/>
@@ -676,10 +672,6 @@
     <comp lib="2" loc="(460,910)" name="Multiplexer">
       <a name="facing" val="west"/>
       <a name="select" val="5"/>
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="2" loc="(580,930)" name="Multiplexer">
-      <a name="facing" val="west"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="2" loc="(610,1310)" name="Multiplexer">
@@ -1030,7 +1022,6 @@
     <wire from="(500,550)" to="(590,550)"/>
     <wire from="(500,840)" to="(1050,840)"/>
     <wire from="(500,880)" to="(1040,880)"/>
-    <wire from="(500,930)" to="(580,930)"/>
     <wire from="(510,1140)" to="(510,1200)"/>
     <wire from="(510,1200)" to="(1080,1200)"/>
     <wire from="(510,1660)" to="(510,2180)"/>
@@ -1048,7 +1039,6 @@
     <wire from="(590,1410)" to="(1660,1410)"/>
     <wire from="(590,550)" to="(590,580)"/>
     <wire from="(590,590)" to="(590,600)"/>
-    <wire from="(600,950)" to="(600,980)"/>
     <wire from="(630,1330)" to="(630,1360)"/>
     <wire from="(640,1300)" to="(690,1300)"/>
     <wire from="(640,1320)" to="(660,1320)"/>
