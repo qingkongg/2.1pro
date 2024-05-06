@@ -386,13 +386,13 @@
     <comp lib="0" loc="(1820,1760)" name="Splitter">
       <a name="appear" val="center"/>
       <a name="bit1" val="0"/>
-      <a name="bit10" val="0"/>
-      <a name="bit11" val="0"/>
-      <a name="bit12" val="0"/>
-      <a name="bit13" val="0"/>
-      <a name="bit14" val="0"/>
-      <a name="bit15" val="0"/>
-      <a name="bit16" val="0"/>
+      <a name="bit10" val="none"/>
+      <a name="bit11" val="none"/>
+      <a name="bit12" val="none"/>
+      <a name="bit13" val="none"/>
+      <a name="bit14" val="none"/>
+      <a name="bit15" val="none"/>
+      <a name="bit16" val="none"/>
       <a name="bit17" val="none"/>
       <a name="bit18" val="none"/>
       <a name="bit19" val="none"/>
@@ -411,11 +411,11 @@
       <a name="bit30" val="1"/>
       <a name="bit31" val="1"/>
       <a name="bit4" val="0"/>
-      <a name="bit5" val="0"/>
-      <a name="bit6" val="0"/>
-      <a name="bit7" val="0"/>
-      <a name="bit8" val="0"/>
-      <a name="bit9" val="0"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="none"/>
+      <a name="bit8" val="none"/>
+      <a name="bit9" val="none"/>
       <a name="incoming" val="32"/>
     </comp>
     <comp lib="0" loc="(190,860)" name="Splitter">
@@ -938,7 +938,7 @@
     <wire from="(1820,1820)" to="(1820,1990)"/>
     <wire from="(1820,1820)" to="(1990,1820)"/>
     <wire from="(1820,1990)" to="(1880,1990)"/>
-    <wire from="(1840,1760)" to="(1950,1760)"/>
+    <wire from="(1840,1750)" to="(1950,1750)"/>
     <wire from="(1850,2020)" to="(1850,2570)"/>
     <wire from="(1850,2020)" to="(1930,2020)"/>
     <wire from="(1850,2570)" to="(1850,2640)"/>
@@ -948,7 +948,7 @@
     <wire from="(1880,2050)" to="(1930,2050)"/>
     <wire from="(1900,1990)" to="(1900,2000)"/>
     <wire from="(1900,2000)" to="(1930,2000)"/>
-    <wire from="(1950,1760)" to="(1950,1840)"/>
+    <wire from="(1950,1750)" to="(1950,1840)"/>
     <wire from="(1950,1840)" to="(1990,1840)"/>
     <wire from="(1970,2010)" to="(1980,2010)"/>
     <wire from="(1970,2060)" to="(2400,2060)"/>
